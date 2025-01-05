@@ -6,6 +6,9 @@ build: clean
 	zip -r ScrapNoPursuit.ftl *
 	cd ..
 	mv -v src/ScrapNoPursuit.ftl out/ScrapNoPursuit.ftl
+	cd out/
+	zip -r ScrapNoPursuit.zip ScrapNoPursuit.ftl
+	cd ..
 
 install: build
 	# Change to wherever you install Slipstream Mod Manager,
