@@ -1,0 +1,28 @@
+<!-- FTLMod-SNP: Scrap No Pursuit -->
+
+<event name="START_GAME">
+	<text>The data you carry is vital to the remaining Federation fleet. You'll need supplies for the journey, so make sure to explore each sector before moving on to the next. But get to the exit before the pursuing Rebel fleet can catch up!</text>
+</event>
+
+<event name="START_BEACON">
+	<text>Welcome to a new sector! Get to the exit beacon and jump to the next sector before the pursuing Rebels catch you!</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event/>
+	</choice>
+	<choice req="engines" lvl="1" hidden="true">
+		<text>(MOD) Scrap and No Pursuit.</text>
+		<event>
+			<text>Scrap and No Pursuit.</text>
+      <item_modify><item type="scrap" min="9999" max="9999"/></item_modify>
+      <modifyPursuit amount="-9999"/>
+		</event>
+	</choice>
+	<choice req="engines" lvl="1" hidden="true">
+		<text>(MOD) No Pursuit.</text>
+		<event>
+			<text>No Pursuit.</text>
+      <modifyPursuit amount="-9999"/>
+		</event>
+	</choice>
+</event>
