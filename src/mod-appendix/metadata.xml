@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<title><![CDATA[ Scrap No Pursuit ]]></title>
+  <title><![CDATA[ Scrap No Pursuit ]]></title>
   <threadUrl><![CDATA[ https://github.com/13/ftlmod-snp ]]></threadUrl>
-	<author><![CDATA[ 13 ]]></author>
-	<version><![CDATA[ 1.0 ]]></version>
-	<description>
-<![CDATA[
+  <author><![CDATA[ 13 ]]></author>
+  <version><![CDATA[ 2.0 ]]></version>
+  <description><![CDATA[
 A transformative mod for FTL: Faster Than Light that removes the Rebel Fleet pursuit and gives players unlimited scrap from the start, allowing for unrestricted experimentation and exploration.
 Features
 
@@ -17,6 +16,5 @@ Compatibility
 
 - Compatible with FTL: Advanced Edition.
 - May conflict with mods that modify starting resources or sector mechanics.
-]]>
-	</description>
+]]></description>
 </metadata>
