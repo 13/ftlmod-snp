@@ -15,6 +15,9 @@
 		<event>
 			<text>Scrap and No Pursuit</text>
       <item_modify><item type="scrap" min="9999" max="9999"/></item_modify>
+      <item_modify><item type="fuel" min="99" max="99"/></item_modify>
+      <item_modify><item type="missiles" min="99" max="99"/></item_modify>
+      <item_modify><item type="drones" min="99" max="99"/></item_modify>
       <modifyPursuit amount="-9999"/>
 		</event>
 	</choice>
